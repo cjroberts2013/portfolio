@@ -46,9 +46,18 @@ body {
     color: #a9a9b3;
   }
 
-  a {
+  body > div > a {
+    text-decoration: none;
+}
+
+.nav-link {
     color: #a9a9b3;
   }
+
+  .title {
+    color: #a9a9b3;
+  }
+
 
  .a-light {
     color: #222;
@@ -60,5 +69,5 @@ button {
 }
 
 .header {
-    margin-top: 20vh;
+    margin: 20vh auto;
 }

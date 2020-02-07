@@ -11,6 +11,7 @@ const themeChange = () => {
         nav.classList.add('nav-light');
         for (var i = 0; i < atag.length; i++) {
             atag[i].style.color = '#222'
+            atag[i].style.textDecoration = 'none'
         }
         button.innerHTML = '<span><i class="fas fa-moon" style="color:#222;font-size:1rem"></i></span>'
     } else {
