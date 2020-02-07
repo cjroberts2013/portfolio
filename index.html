@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,600,700&display=swap" rel="stylesheet">
     <title>Charles Roberts Portfolio</title>
 </head>
 
@@ -29,6 +29,10 @@
                         <button onclick="window.location.href = '#'" class="nav-link nav-a" name='atag'>Home</button>
                     </li>
                     <li class="nav-item">
+                        <button onclick="window.location.href = '#projects'" class="nav-link nav-a"
+                            name='atag'>Projects</button>
+                    </li>
+                    <li class="nav-item">
                         <button onclick="window.location.href = '#about'" class="nav-link nav-a"
                             name='atag'>About</button>
                     </li>
@@ -37,16 +41,12 @@
                             name='atag'>Blog</button>
                     </li>
                     <li class="nav-item">
-                        <button onclick="window.location.href = '#projects'" class="nav-link nav-a"
-                            name='atag'>Projects</button>
+                        <button onclick="window.location.href = '#resume'" class="nav-link nav-a"
+                            name='atag'>Resume</button>
                     </li>
                     <li class="nav-item">
                         <button onclick="window.location.href = '#contact'" class="nav-link nav-a"
                             name='atag'>Contact</button>
-                    </li>
-                    <li class="nav-item">
-                        <button onclick="window.location.href = '#resume'" class="nav-link nav-a"
-                            name='atag'>Resume</button>
                     </li>
                 </ul>
             </div>
@@ -76,19 +76,47 @@
     </div>
 
 
-
-    <!-- CONTACT ME -->
-    <h1>Contact Me</h1>
-
-    <!-- Resume -->
-    <h1>Resume</h1>
-
     <!-- Projects -->
-    Blog site
-    React Runn App
+    <div class="container" id="projects">
+        <h1>Projects</h1>
+    </div>
+
+
+
 
     <!-- About Me -->
-    Use about from blog. Be interesting
+    <div class="container section" id="about">
+        <h1>About Me</h1>
+        <p class="about-text">
+            Welcome to my portfolio! My name is Charles Roberts and I am aspiring to be a front-end developer. I live in
+            Austin, Tx and spend most of my free time coding, running or kayaking. Currently, my focus is on the
+            frontend framework/library React.js. There is so much out there to learn and I am excited to keep improving
+            my knowledge.
+        </p>
+        <div class="about-photos">
+            <img src="./images/kayak-port.jpg" alt="Kayaking Austin">
+            <img src="./images/running-port.jpg" alt="Running Marathon">
+        </div>
+    </div>
+
+
+    <!-- Blog -->
+    <div class="container section" id="blog">
+        <h1>Blog</h1>
+    </div>
+
+    <!-- Resume -->
+    <div class="container section" id="resume">
+        <h1>Resume</h1>
+    </div>
+
+
+
+    <!-- CONTACT ME -->
+    <div class="container section" id="contact">
+        <h1>Contact Me</h1>
+    </div>
+
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"
         integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
