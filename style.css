@@ -66,8 +66,24 @@ body {
 button {
     background-color: transparent;
     border: none;
+    text-decoration: none;
 }
 
+button:focus {outline:0;}
+
 .header {
-    margin: 20vh auto;
+    margin: 20vh auto 10vh auto;
+}
+
+.cta {
+    color: inherit;
+    border: 1px solid #a9a9b3;
+    padding: 4px 8px;
+    font-size: 1.6rem;
+    border-radius: 5px;
+}
+
+.cta:hover {
+    background-color: #a9a9b3;
+    color: #222;
 }

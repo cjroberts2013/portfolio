@@ -3,7 +3,6 @@ const atag = document.getElementsByName('atag');
 const nav = document.querySelector('nav');
 const page = document.querySelector('body');
 
-
 const themeChange = () => {
     if (button.classList.contains('dark-theme')) {
         button.classList.remove('dark-theme');
@@ -26,9 +25,3 @@ const themeChange = () => {
 }
 
 button.addEventListener('click', themeChange)
-
-
-
-// button.innerhtml = <span>
-//     <i class="fas fa-sun" style="color:#a9a9b3;font-size:1rem"></i>
-// </span>
