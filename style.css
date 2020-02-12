@@ -90,6 +90,65 @@ button:focus {outline:0;}
     border-radius: 10px;
 }
 
+.cta-sub {
+    color: inherit;
+    border: 1px solid #a9a9b3;
+    padding: 4px 8px;
+    font-size: 1.4rem;
+    border-radius: 5px;
+    margin: 0 auto;
+  }
+
+  .cta-sub:hover {
+    background-color: #a9a9b3;
+    color: white;
+}
+
+
+
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.1s;
+    border-radius: 5px; 
+    margin: 2rem auto;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(192, 192, 192, 0.2);
+  }
+  
+  /* Add some padding inside the card container */
+  .card-container {
+    padding: 12px 20px;
+    color: #292a2d;
+    background-color: #a9a9b3;
+  }
+
+  .card-img {
+    border-radius: 5px 5px 0 0;
+  }
+
+  .see-code {
+      display: flex;
+      justify-content: center;
+  }
+
+  .cta-card {
+    color: inherit;
+    border: 1px solid #292a2d;
+    padding: 4px 8px;
+    font-size: 1.4rem;
+    border-radius: 5px;
+    margin: 0 1rem;
+  }
+
+  .cta-card:hover {
+    background-color: #292a2d;
+    color: white;
+}
+
 @media only screen and (max-width: 770px) {
     .about-photos {
         flex-direction: column;
@@ -98,3 +157,5 @@ button:focus {outline:0;}
         width: 100%;
     }
   }
+
+
