@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src="https://kit.fontawesome.com/8d387c95c3.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="./images/icon-48x48.png" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
@@ -55,12 +56,12 @@
         <div class="container">
             <h1 class="display-5">Charles Roberts - Front End Developer</h1>
             <div class="">
-                <a href="https://twitter.com/cjrobertstech" class="text-light px-2"><i name='atag'
+                <a href="https://twitter.com/cjrobertstech" target='_blank' class="text-light px-2"><i name='atag'
                         class="fab fa-twitter" style="color:#a9a9b3; font-size:30px"></i></a>
-                <a href="https://www.linkedin.com/in/cjrobertstech/" class="text-light px-2"><i name='atag'
-                        class="fab fa-linkedin-in" style="color:#a9a9b3; font-size:30px"></i></a>
-                <a href="https://github.com/cjroberts2013" class="text-light px-2"><i name='atag' class="fab fa-github"
-                        style="color:#a9a9b3; font-size:30px"></i></a>
+                <a href="https://www.linkedin.com/in/cjrobertstech/" target='_blank' class="text-light px-2"><i
+                        name='atag' class="fab fa-linkedin-in" style="color:#a9a9b3; font-size:30px"></i></a>
+                <a href="https://github.com/cjroberts2013" target='_blank' class="text-light px-2"><i name='atag'
+                        class="fab fa-github" style="color:#a9a9b3; font-size:30px"></i></a>
             </div>
         </div>
     </div>
@@ -75,6 +76,70 @@
     <!-- Projects -->
     <div class="container" id="projects">
         <h1>Projects</h1>
+
+        <div class="card">
+            <img class="card-img" src="./images/recipediscovery.PNG" alt="Recipe Discovery App Image"
+                style="width:100%">
+            <div class="card-container">
+                <h4><b>Recipe Discovery App</b></h4>
+                <p class="about-text">This is one of my side project created using HTML, CSS and JavaScript. I used
+                    axios to request data from an API, rendering a list of recipes. The consumer can than select
+                    from the returned list to recieve more details about an individual recipe along with ingredients and
+                    cooking instructions.</p>
+                <div class="see-code">
+                    <a class="cta-card" target='_blank' href='https://recipediscovery.netlify.app'><strong>Check Out
+                            Project</strong>
+                    </a>
+
+                    <a class="cta-card" href='https://github.com/cjroberts2013/recipe-project'
+                        target='_blank'><strong>Check
+                            Out
+                            Code</strong>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <img class="card-img" src="./images/Capture.PNG" alt="Brody's Busy Bees Site Image" style="width:100%">
+            <div class="card-container">
+                <h4><b>Brody's Busy Bees Website</b></h4>
+                <p class="about-text">This is a commisioned project for a small family owned beekeeping business.
+                    I utilized HTML and CSS to create this site. </p>
+                <div class="see-code">
+                    <a class="cta-card" target='_blank' href='https://brodysbusybees.com'><strong>Check Out
+                            Project</strong>
+                    </a>
+
+                    <a class="cta-card" href='https://github.com/cjroberts2013/bbb2020' target='_blank'><strong>Check
+                            Out Code</strong>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <img class="card-img" src="./images/booklocator.PNG" alt="Book Locator App Image" style="width:100%">
+            <div class="card-container">
+                <h4><b>React.js - Book Locator App</b></h4>
+                <p class="about-text">This is another side project created using React.js. Using the Fetch API, I
+                    requested data from the Google Books API displaying results based off of the search query used.
+                    Searches can be made using information such as the title, author or publisher. </p>
+                <div class="see-code">
+                    <a class="cta-card" target='_blank' href='https://booklocator.netlify.app/'><strong>Check Out
+                            Project</strong>
+                    </a>
+
+                    <a class="cta-card" href='https://github.com/cjroberts2013/react-book-finder'
+                        target='_blank'><strong>Check
+                            Out
+                            Code</strong>
+                    </a>
+
+                </div>
+            </div>
+        </div>
+
         <div class="card">
             <img class="card-img" src="./images/blog-img-sm.png" alt="blog image" style="width:100%">
             <div class="card-container">
@@ -85,18 +150,19 @@
                     understand various
                     front-end topics.</p>
                 <div class="see-code">
-                    <button class="cta-card"
-                        onclick="window.location.href = 'https://charlestechblog.netlify.com/'"><strong>Check Out
+                    <a class="cta-card" target='_blank' href='https://charlestechblog.netlify.com'><strong>Check Out
                             Project</strong>
-                    </button>
-                    <button class="cta-card"
-                        onclick="window.location.href = 'https://github.com/cjroberts2013/charlestech-blog'"><strong>Check
+                    </a>
+
+                    <a class="cta-card" href='https://github.com/cjroberts2013/charlestech-blog'
+                        target='_blank'><strong>Check
                             Out
                             Code</strong>
-                    </button>
+                    </a>
+
+
                 </div>
             </div>
-
         </div>
     </div>
 
@@ -108,9 +174,11 @@
         <h1>About Me</h1>
         <p class="about-text">
             Welcome to my portfolio! My name is Charles Roberts and I am aspiring to be a front-end developer. I live in
-            Austin, Tx and spend most of my free time coding, running or kayaking. Currently, my focus is on the
-            frontend framework/library React.js. There is so much out there to learn and I am excited to keep improving
-            my knowledge.
+            Austin, Tx and spend most of my free time coding, running or kayaking. Currently, my focus is on landing a
+            frontend developer position. I am looking to get hired either remotely, or in the greater Detroit
+            Metropolitan
+            area.
+            There is so much out there to learn and I am excited to keep improving my knowledge.
         </p>
         <div class="about-photos">
             <img src="./images/kayak-port.jpg" alt="Kayaking Austin">

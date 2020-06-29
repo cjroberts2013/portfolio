@@ -52,6 +52,15 @@ button {
 
 button:focus {outline:0;}
 
+a {
+  background-color: transparent;
+  border: none;
+  text-decoration: none !important;
+  text-align: center;
+}
+
+a:focus {outline:0;}
+
 .header {
     margin-top: 20vh;
 }
@@ -155,6 +164,10 @@ button:focus {outline:0;}
     }
     #about img {
         width: 100%;
+    }
+
+    .cta-card, .cta-sub {
+      font-size: 1rem;
     }
   }
 
