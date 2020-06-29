@@ -61,6 +61,10 @@ a {
 
 a:focus {outline:0;}
 
+.navbar-nav button:hover {
+  border-bottom: #a9a9b3 solid 2px;
+}
+
 .header {
     margin-top: 20vh;
 }
